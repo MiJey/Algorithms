@@ -21,19 +21,22 @@ def solution(s):
             if word == next_word:
                 count += 1
             else:
-                # 단어 반복 끝 -> 다음 단어 반복
+                # 단어 반복 끝 -> 결과에 추가하고 다음 단어 반복
                 if count != 1:
+                    # count가 1일 때는 생략
                     compressed += str(count)
 
                 compressed += word
+
                 word = s[i:i + cut]
                 # print("word", word)
                 count = 1
 
         # 마지막 단어는 따로 붙여줌
-        # 마지막 단어가 딱 떨어지는 경우: count가 1이상 붙어서 출력 ex) aabbcc -> 2c, aabbcccc -> 2cc
-        # 마지막 단어가 자투리인 경우: count가 무조건 1 -> 그냥 단어만 출력 ex) aabbc -> c
+        # 마지막 단어가 딱 떨어지는 경우: count가 1이상 붙어서 출력 ex) cut이 2일 때 aabbcc -> cc, aabbcccc -> 2cc, aabbcccccc -> 3cc
+        # 마지막 단어가 자투리인 경우: count가 무조건 1 -> 그냥 단어만 출력 ex) cut이 2일 때 aabbc -> c
         if count != 1:
+            # count가 1일 때는 생략
             compressed += str(count)
 
         compressed += word
