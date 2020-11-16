@@ -1,9 +1,5 @@
 def solution(s):
-    # 5번 테스트 케이스 예외처리
-    if len(s) == 1:
-        return 1
-
-    candidate = []
+    answer = len(s)
 
     # 주어진 문자열을 절반으로 자르는게 word의 최대치 (abcabc -> 2abc)
     # 자르는 단위를 1부터 len(s) // 2 까지 시도
@@ -43,10 +39,10 @@ def solution(s):
 
         # print("compressed", compressed)
         # print("-----------")
-        candidate.append(len(compressed))
+        answer = min(answer, len(compressed))
 
     # print("candidate", candidate)
-    return min(candidate)
+    return answer
 
 
 # print("result", solution(input()))
