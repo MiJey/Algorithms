@@ -1,4 +1,3 @@
-# 예제만 통과
 import sys
 input = sys.stdin.readline
 
@@ -52,7 +51,7 @@ def get_virus_area_size():
 
 
 # 벽 3개 브루트포스로 고르기
-for x in range(0, m * n - 3):
+for x in range(0, m * n - 2):
     # x = i * m + j
     xi = x // m
     xj = x % m
@@ -60,14 +59,14 @@ for x in range(0, m * n - 3):
     if lab[xi][xj] != 0:
         continue
 
-    for y in range(x + 1, m * n - 2):
+    for y in range(x + 1, m * n - 1):
         yi = y // m
         yj = y % m
 
         if lab[yi][yj] != 0:
             continue
 
-        for z in range(y + 1, m * n - 1):
+        for z in range(y + 1, m * n):
             zi = z // m
             zj = z % m
 
