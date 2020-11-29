@@ -1,3 +1,16 @@
+## 2020년 11월 29일
+### 정렬
+
+1. [1715 카드 정렬하기](baekjoon/1715_카드정렬하기.py)
+    - https://www.acmicpc.net/problem/1715
+2. [실패율](programmers/30_42889_실패율.py)
+    - https://programmers.co.kr/learn/courses/30/lessons/42889
+
+### 분할정복
+
+1. [1629 곱셈](baekjoon/1629_곱셈.py)
+    - https://www.acmicpc.net/problem/1629
+    
 ## 2020년 11월 23일
 ### BFS
 
