@@ -8,7 +8,7 @@
 
 ### 분할정복
 
-1. [1629 곱셈](baekjoon/1629_곱셈.py)
+1. 안풀었음 [1629 곱셈](baekjoon/1629_곱셈.py)
     - https://www.acmicpc.net/problem/1629
     
 ## 2020년 11월 23일
