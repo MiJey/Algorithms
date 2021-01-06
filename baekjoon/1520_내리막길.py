@@ -16,6 +16,7 @@ dy = [1, 0, -1, 0]
 
 
 # (0, 0)에서 (m-1, n-1)까지 내리막길만 가는 방법
+# 이유는 모르겠지만 이게 더 빠름(180ms)
 def dfs_from_start(x, y):
     if x == m - 1 and y == n - 1:
         return 1
@@ -35,6 +36,7 @@ def dfs_from_start(x, y):
 
 
 # (m-1, n-1)에서 (0, 0)까지 오르막길만 가는 방법(역주행)
+# 이유는 모르겠지만 이게 더 느림(270ms)
 def dfs_from_end(x, y):
     if x == 0 and y == 0:
         return 1
