@@ -3,6 +3,8 @@
 
 1. [1520 내리막 길](baekjoon/1520_내리막길.py)
     - https://www.acmicpc.net/problem/1520
+    - 참고) https://wootool.tistory.com/83
+    - 참고) https://velog.io/@seovalue/%EB%B0%B1%EC%A4%80-1520%EB%B2%88-%EB%82%B4%EB%A6%AC%EB%A7%89%EA%B8%B8
 
 ## 2020년 11월 29일
 ### 정렬
