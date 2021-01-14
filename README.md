@@ -1,9 +1,9 @@
 ## 2021sus 1월 14일
 ### 다이나믹 프로그래밍
 
-1. [9465 스티커](beakjoon/9465_스티커.py)
+1. [9465 스티커](baekjoon/9465_스티커.py)
     - <https://www.acmicpc.net/problem/9465>
-2. [11053 가장 긴 증가하는 부분 수열](beakjoon/11053_가장긴증가하는부분수열.py)
+2. [11053 가장 긴 증가하는 부분 수열](baekjoon/11053_가장긴증가하는부분수열.py)
     - <https://www.acmicpc.net/problem/11053>
 
 ## 2021년 1월 2일
