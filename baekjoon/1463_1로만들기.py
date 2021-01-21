@@ -3,14 +3,12 @@ n = int(input())
 # dp[n]: n이 되기 위해 사용하는 연산 횟수의 최솟값
 # 0번째는 계산을 편하게 하기 위해 비워둔 공간
 dp = [0] * (n + 1)
-dp[2] = 1
-dp[3] = 1
 
-if n <= 3:
+if n <= 1:
     print(dp[n])
     exit()
 
-for i in range(4, n + 1):
+for i in range(2, n + 1):
     # 1을 뺀다
     candidate = [dp[i - 1]]
 
