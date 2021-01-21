@@ -1,3 +1,11 @@
+## 2021년 1월 21일
+### 다이나믹 프로그래밍
+
+1. [1309 동물원](baekjoon/1309_동물원.py)
+    - <https://www.acmicpc.net/problem/1309>
+2. [1463 1로 만들기](baekjoon/1463_1로만들기.py)
+    - <https://www.acmicpc.net/problem/1463>
+
 ## 2021년 1월 14일
 ### 다이나믹 프로그래밍
 
