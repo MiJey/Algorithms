@@ -1,3 +1,11 @@
+## 2021년 1월 27일
+### 문자열
+
+1. [1769 3의 배수](baekjoon/1769_3의배수.py)
+    - <https://www.acmicpc.net/problem/1769>
+2. [30 60060 가사 검색](programmers/30_60060_가사검색.py)
+    - <https://programmers.co.kr/learn/courses/30/lessons/60060>
+
 ## 2021년 1월 21일
 ### 다이나믹 프로그래밍
 
